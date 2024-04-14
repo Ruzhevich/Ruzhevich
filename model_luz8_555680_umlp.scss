@@ -1,0 +1,99 @@
+kiwi + apple
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+72,3,13,27,69,47,86,74,59,18,46,51,43,75,33,48,93,75,31,28,85,50,85,33,56,21,70,0,5,40,49,24,96,69,97,99,69,6,57,75,23,38,78,3,51,60,83,86,79,50 + false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape
+
+console.log(getRandomString());
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+true + kiwi
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+8,72,50,26,88,48,29,43,20,85,39,9,38,3,77,91,65,50,28,15,76,27,98,70,89,40,24,16,70,8,96,11,5,8,4,18,99,99,86,35,51,17,60,76,42,38,76,20,68,80,12,94,70,22,68,13,0,70,11,90,9,21,70,32,63,1,82,82,88,4,59,75,44,54,42,88,74,89,52,43,6,41,8,73,0,17 * true
+function addNumbers(a, b) { return a + b; }
+const getUniqueValues = array => [...new Set(array)];
+const multiply = (a, b) => a * b;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple + 30
+const capitalizeString = str => str.toUpperCase();
+99 / false
+
+const capitalizeString = str => str.toUpperCase();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+true - banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const getUniqueValues = array => [...new Set(array)];
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+13 - orange
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+grape
+
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+95 - 27,87,6,33,13,88,52,47,29,22,23,90,76,45,83,78,15,38,9,15,48
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi + 21
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const removeDuplicates = array => Array.from(new Set(array));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+27,99,31,39,45,94,48,45,40,89,72,2,78,43,10,63,8,92,39,49,38,61,28,7,89,89,80,6,12,41,59,7,62,15,56,38,84,97,56,62,60,97,14,73,91,93,24,11,36,60,43,76,5,79,4,5,19,81,0,38,75,6,85,19,60,28,98,4,55,78,27,25,83,93 - true
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+grape
+
+console.log(getRandomString());
+const removeDuplicates = array => Array.from(new Set(array));
+52,8,96,53,33,83,67,56,50,21,29,29,75,95,68,37,19,69,10,42,21,3,44,97,81,48,72,24,81,21,82,65,12,11,86,35,15,10,92,11,5,36,58,49,16,70,68,7,74,75,6,62,52,40,52,24,51,50,90,85,45,83,66,99,70,92 - 38
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const reverseString = str => str.split("").reverse().join("");
+const capitalizeString = str => str.toUpperCase();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+1 * true
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+// This is a comment
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+83 - 43,56,53,29,58,54,83,84,8,16,37,27,52,52,80,78,99,51,83,63,1,17,12,5,56,91,64,30,91,26,61,75,33,70,75,69,83,63,12,85,66,48,76,65,75,40,25,16,64
+const isEven = num => num % 2 === 0;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+6,62,40,41,30,63,48,88,8,54,36,26,93,27,18,12 / apple
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+78 + 53
+const formatDate = date => new Date(date).toLocaleDateString();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+// This is a comment
+true + orange
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+73 * 30
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
